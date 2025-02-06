@@ -1,0 +1,2 @@
+# corewp
+Basics About Wordpress
