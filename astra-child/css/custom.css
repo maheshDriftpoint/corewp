@@ -1,0 +1,20 @@
+.footer-menu-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.footer-menu-list li {
+    display: block; /* Vertical menu */
+    padding: 10px 0;
+}
+
+.footer-menu-list a {
+    text-decoration: none;
+    color: 000;
+    font-size: 16px;
+}
+
+.footer-menu-list a:hover {
+    color: #ffcc00; /* Highlight on hover */
+}

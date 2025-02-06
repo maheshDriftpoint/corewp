@@ -1,0 +1,58 @@
+#form-builder {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+}
+
+#field-palette {
+    width: 25%;
+    min-height: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #f0f0f0;
+}
+
+#form-container {
+    width: 50%;
+    min-height: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+.draggable-field {
+    padding: 10px;
+    margin: 10px 0;
+    background: #0073aa;
+    color: #fff;
+    cursor: grab;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.droppable-area {
+    position: relative;
+}
+
+.form-field {
+    margin-bottom: 15px;
+}
+
+.form-field {
+    background: #f1eeee;
+    padding: 2px;
+    border: 1px solid #c5c3c3;
+    border-radius: 4px;
+}
+
+.form-field label {
+    width: 150px;
+    padding: 4px 2px;
+}
+
+.remove-field {
+    margin-left: 5px;
+}

@@ -1,0 +1,160 @@
+#mini-cart-container {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#mini-cart-container.active {
+    display: block;
+}
+
+.header-cart {
+    position: relative;
+}
+
+.cart-count {
+    background: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 8px;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+
+.vns_sidecart {
+    background: #f8f8f8;
+    width: 400px;
+    padding: 20px;
+}
+.vns_sidecart * {
+    margin:0;
+    padding:0;
+}
+.vns_sidecart_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000;
+   padding-bottom: 10px;
+}
+.vns_sidecart .vns_sidecart_content ul {
+   max-height: 430px;
+   overflow: auto;
+}
+.vns_sidecart_content ul li {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.vns_sidecart_content ul li .vns_sidecart_content_img {
+    max-width: 90px;
+    width: 100%;
+}
+.vns_sidecart_content ul li .vns_sidecart_content_img img {
+    width: 100%;
+}
+.vns_sidecart_progressbar_color{
+    background: #e7e7e7;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.vns_sidecart_progressbar_top_color{
+    height: 14px;
+    width: 30%;
+    background: #7be000;
+}
+
+ .vns_sidecart .vns_sidecart_content {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: calc(100% - 126px);
+}
+.vns_sidecart .vns_sidecart_content .vns_sidecart_content_des a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.vns_sidecart .vns_sidecart_content .vns_sidecart_content_des div {
+    color: #666;
+}
+
+.vns_sidecart .vns_sidecart_content .vns_sidecart_sticker {
+    display: flex;
+    border: 1px solid #979797;
+    gap: 15px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.vns_sidecart .vns_sidecart_content .vns_sidecart_sticker a {
+    background: #f97805;
+    padding: 6px 10px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.vns_sidecart_coupon {
+    margin-top: auto;
+}
+
+.vns_sidecart_coupon input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border-radius: 18px;
+    border: 1px solid;
+}
+
+.vns_sidecart_coupon button {
+    width: 100%;
+    margin-top: 12px;
+    background: #a8a8a8;
+    border: 0;
+    padding: 8px 0px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+
+.vns_sidecart .vns_sidecart_content .vns_sidecart_subtotal p.vns_sidecart_total {
+    display: flex;
+    justify-content: space-between;
+}
+.vns_sidecart .vns_sidecart_content .vns_sidecart_subtotal p.vns_sidecart_checkout_button a.button.checkout {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 0px;
+    background: #f97805;
+    width: 100%;
+    display: inline-block;
+    border-radius: 30px; 
+    margin-top: 10px;
+    text-align:center;
+    text-decoration:none;
+}
+.vns_payment_gatway {
+   display: flex;
+   gap: 9px;
+   flex-wrap: wrap;
+   align-items: center;
+}
+.vns_payment_gatway img {
+   width: 52px;
+}
+.vns_sidecart_progressbar {
+   text-align: center;
+   padding-top: 15px;
+}
