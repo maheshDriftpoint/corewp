@@ -32,6 +32,8 @@ if ( ! defined( 'ABSPATH' ) ) {
         
     // astra_footer_after(); 
 
+echo "testing";
+
 ?>
 
 
